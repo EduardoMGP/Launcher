@@ -1,0 +1,47 @@
+* {
+    -fx-black: #3a3c3e;
+    -fx-orange: #efa841;
+    -fx-gray: #bbbaba;
+    -fx-white: white;
+    -fx-yellow: #e6d687;
+    -fx-blue: #3f49b7;
+    -fx-blue-dark: #312f4b;
+    -fx-cyan: #48c2e9;
+}
+
+.button-jogar {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 20px;
+}
+
+.button-jogar:hover {
+    -fx-background-color: rgba(246, 169, 55, 0.5);
+}
+
+
+#teste {
+    -fx-background-image: url("https://i.imgur.com/B4TeHhx.png");
+    -fx-opacity: 0.8;
+}
+
+#viewmodpacks {
+    /*-fx-background-image: url("https://i.imgur.com/dQCkqDy.gif");*/
+    -fx-background-image: url("https://i.imgur.com/WMwzBUp.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+}
+
+.server-selector {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-radius: 10%;
+}
+
+.server-selector .label-titulo {
+    -fx-text-fill: -fx-white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}

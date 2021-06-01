@@ -1,0 +1,42 @@
+* {
+    -fx-black: #3a3c3e;
+    -fx-orange: #efa841;
+    -fx-gray: #bbbaba;
+    -fx-white: white;
+    -fx-yellow: #e6d687;
+    -fx-blue: #3f49b7;
+    -fx-blue-dark: #312f4b;
+    -fx-cyan: #48c2e9;
+}
+
+#menu-bar {
+    -fx-background-color: -fx-blue-dark;
+    -fx-text-fill: -fx-white;
+    -fx-pref-height: 83px;
+}
+
+#logo {
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-image: url('https://i.imgur.com/4i4PZhJ.png');
+}
+
+#menu-bar .button {
+    -fx-pref-height: 82px;
+    -fx-background-color: -fx-blue-dark;
+    -fx-background-radius: 0;
+    -fx-text-fill: -fx-white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+
+    -fx-border-color: rgba(236, 235, 235, 0.1);
+    -fx-border-width: 1px;
+    -fx-border-style:  hidden solid hidden hidden;
+}
+
+#menu-bar .button:hover {
+    -fx-border-color: white;
+    -fx-border-width: 3px;
+    -fx-background-color: rgba(246, 169, 55, 0.5);
+}

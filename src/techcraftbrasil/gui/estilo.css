@@ -1,0 +1,45 @@
+/*.root {*/
+/*    -fx-background-color: #efa941;*/
+/*}*/
+
+#main {
+    -fx-background-color: #302e47;
+}
+
+#logo {
+    -fx-background-image: url("https://i.imgur.com/4i4PZhJ.png");
+    -fx-background-position: center;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+}
+
+.nav-lateral {
+    -fx-background-color: #312f4c;
+
+}
+
+.button {
+    -fx-background-color: #312f4c;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+}
+
+.servers {
+    -fx-background-color: #f0f2f4;
+}
+.servers .button:hover {
+    -fx-background-color: rgba(236, 168, 69, 0.5);
+}
+.button:hover {
+    -fx-background-color: rgba(231, 214, 135, 0.1);
+}
+
+#exit #min {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+
+#username {
+    -fx-text-fill: white;
+}

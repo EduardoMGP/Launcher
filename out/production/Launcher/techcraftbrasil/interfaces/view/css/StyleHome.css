@@ -1,0 +1,92 @@
+* {
+    -fx-black: #3a3c3e;
+    -fx-orange: #efa841;
+    -fx-gray: #bbbaba;
+    -fx-white: white;
+    -fx-yellow: #e6d687;
+    -fx-blue: #3f49b7;
+    -fx-blue-dark: #312f4b;
+    -fx-cyan: #48c2e9;
+}
+#viewhome {
+    -fx-background-image: url("https://i.imgur.com/B4TeHhx.png");
+}
+#pane-about, #pane-login{
+    -fx-background-color: rgba(50, 44, 118, 0.2);
+    -fx-background-radius: 10px;
+}
+
+#pane-about .label, #pane-login .label {
+    -fx-text-fill: white;
+    -fx-font-size: 23px;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#pane-about .text-area {
+
+    -fx-max-width: 615px;
+    -fx-max-height: 500px;
+
+    -fx-min-width: 615px;
+    -fx-min-height: 500px;
+
+    -fx-pref-width: 615px;
+    -fx-pref-height: 500px;
+
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+
+    -fx-background-radius: 10px;
+
+}
+
+#pane-about .text-area .scroll-pane .viewport, #pane-about .text-area .scroll-pane, #pane-about .text-area  {
+    -fx-background-color: transparent;
+}
+
+#pane-about .text-area .content, .pane {
+    -fx-background-color: rgba(38, 38, 38, 0.3);
+}
+
+#pane-about .text-area .scroll-pane .scroll-bar:vertical {
+    -fx-pref-width: 15px;
+    -fx-min-width: 15px;
+    -fx-max-width: 15px;
+    -fx-background-color: rgba(165, 163, 163, 0.3);
+}
+
+#pane-about .text-area .scroll-pane .scroll-bar:vertical {
+    -fx-pref-width: 15px;
+    -fx-min-width: 15px;
+    -fx-max-width: 15px;
+    -fx-background-color: rgba(165, 163, 163, 0.3);
+}
+
+#pane-about .text-area .scroll-pane .scroll-bar:vertical .thumb {
+    -fx-pref-width: 15px;
+    -fx-min-width: 15px;
+    -fx-max-width: 15px;
+    -fx-background-color: rgba(17, 17, 17, 0.4);
+    -fx-background-radius: 10px;
+}
+
+.pane {
+    -fx-background-color: -fx-orange;
+}
+
+.titled-pane:expanded .title{
+    -fx-background-color: red;
+    -fx-pref-height: 40px;
+    -fx-font-size: 20px;
+}
+
+.titled-pane .title .arrow-button {
+    -fx-pref-width: 20px;
+}
+.transparent {
+    -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}

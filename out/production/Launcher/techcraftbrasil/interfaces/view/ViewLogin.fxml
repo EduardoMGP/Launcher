@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="680.0" maxWidth="1200.0" minHeight="680.0" minWidth="1200.0" prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="techcraftbrasil.interfaces.controller.ControllerHome">
+   <children>
+      <AnchorPane id="content-login" layoutY="82.0" prefHeight="598.0" prefWidth="1200.0" stylesheets="@css/StyleLoginModal.css">
+         <children>
+            <Pane layoutX="268.0" layoutY="14.0" prefHeight="572.0" prefWidth="665.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="267.0" AnchorPane.topAnchor="14.0">
+               <children>
+                  <Label layoutX="266.0" layoutY="24.0" prefHeight="37.0" prefWidth="133.0" text="Efetue login" />
+                  <Pane layoutX="74.0" layoutY="111.0" prefHeight="424.0" prefWidth="543.0" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

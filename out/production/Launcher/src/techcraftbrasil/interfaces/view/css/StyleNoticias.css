@@ -1,0 +1,39 @@
+#viewnoticias {
+    -fx-background-image: url("https://i.imgur.com/B4TeHhx.png");
+}
+
+.scroll-pane .viewport, .scroll-pane, .list-view {
+    -fx-background-color: rgba(50, 44, 118, 0.2);
+    -fx-background-radius: 10px;
+}
+
+
+.list-cell:filled {
+    -fx-background-color: transparent;
+    -fx-text-alignment: center;
+    -fx-background-radius: 10px;
+    -fx-max-width: 312px;
+    -fx-min-width: 312px;
+}
+
+.list-cell .label {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-background-color: red;
+}
+
+.list-cell:filled {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.list-cell:hover {
+    -fx-background-color: rgba(213, 207, 207, 0.2);
+}
+
+.date-notice-cell {
+    -fx-font-size: 10px;
+}
+.teste {
+    -fx-background-color: red;
+}

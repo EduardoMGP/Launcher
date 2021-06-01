@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="techcraftbrasil.gui.View">
+   <children>
+      <VBox layoutX="-2.0" prefHeight="600.0" prefWidth="203.0" styleClass="nav-lateral" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox id="logo" prefHeight="163.0" prefWidth="173.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="205.0" text="TechCraftBrasil 1.12.2" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="205.0" text="TechCraftBrasil 1.7.10" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="208.0" text="Configurações" textAlignment="CENTER" />
+            <AnchorPane prefHeight="303.0" prefWidth="203.0">
+               <children>
+                  <TextField fx:id="fildUsername" layoutX="7.0" layoutY="295.0" prefHeight="46.0" prefWidth="194.0" promptText="Username" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </TextField>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <VBox layoutX="194.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutX="5.0" prefHeight="71.0" prefWidth="700.0" snapToPixel="false" styleClass="nav-lateral">
+               <children>
+                  <Button fx:id="btnExit" layoutX="624.0" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#onClickButtonExit" prefHeight="66.0" prefWidth="76.0" text="X" />
+                  <Button id="min" fx:id="btnMin" layoutX="548.0" layoutY="-2.0" mnemonicParsing="false" onMouseClicked="#onClickButtonMin" prefHeight="66.0" prefWidth="76.0" text="-" />
+               </children>
+            </Pane>
+            <Pane onMouseClicked="#onClickButtonMin" prefHeight="88.0" prefWidth="680.0" style="-fx-background-image: url('https://i.imgur.com/A08Qphr.gif'); -fx-background-size: 100%; -fx-background-repeat: no-repeat; -fx-background-position: center;">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin></Pane>
+            <Pane prefHeight="144.0" prefWidth="680.0" styleClass="servers">
+               <children>
+                  <Button layoutX="520.0" layoutY="79.0" mnemonicParsing="false" onMouseClicked="#onClickServer" prefHeight="43.0" prefWidth="112.0" text="Jogar" />
+                  <Text layoutX="22.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Downloads:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="22.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Execuções:" wrappingWidth="138.849609375">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="22.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avaliações:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="564.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Versão:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Pane>
+            <ScrollPane id="noticias" prefHeight="270.0" prefWidth="680.0">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

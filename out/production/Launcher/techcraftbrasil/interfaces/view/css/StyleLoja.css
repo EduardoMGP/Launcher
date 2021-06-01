@@ -1,0 +1,25 @@
+* {
+    -fx-black: #3a3c3e;
+    -fx-orange: #efa841;
+    -fx-gray: #bbbaba;
+    -fx-white: white;
+    -fx-yellow: #e6d687;
+    -fx-blue: #3f49b7;
+    -fx-blue-dark: #312f4b;
+    -fx-cyan: #48c2e9;
+}
+#button-back {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-pref-height: 30px;
+    -fx-min-height: 30px;
+    -fx-max-height: 30px;
+}
+
+#search-bar {
+    -fx-background-color: -fx-black;
+    -fx-pref-height: 40px;
+    -fx-min-height: 40px;
+    -fx-max-height: 40px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="680.0" maxWidth="1200.0" minHeight="680.0" minWidth="1200.0" prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="techcraftbrasil.interfaces.controller.ControllerNoticias">
+   <children>
+      <AnchorPane id="viewnoticias" layoutY="82.0" prefHeight="598.0" prefWidth="1200.0" stylesheets="@css/StyleNoticias.css">
+         <children>
+            <ListView fx:id="list" layoutX="14.0" layoutY="15.0" maxHeight="567.0" maxWidth="312.0" minHeight="567.0" minWidth="312.0" prefHeight="567.0" prefWidth="312.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="16.0" />
+            <ScrollPane layoutX="339.0" layoutY="14.0" prefHeight="569.0" prefWidth="846.0" AnchorPane.bottomAnchor="16.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="16.0">
+               <content>
+                  <Label text="Label" />
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
